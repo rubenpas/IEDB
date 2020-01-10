@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Iglesia Evangelica</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="icon" type="image/png" href="img/android-chrome-192x192.png">
+  <!--     Fonts and icons     
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />-->
+  <link rel="stylesheet" href="font/fontawesome/all.min.css">
+  <!-- Material Kit CSS-->
+  <link rel="stylesheet" href="css/material-kit.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#">
+          <img src="img/logodenomi.png" style="height: 80%;" alt=""> Iglesia de Dios </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="fas fa-church"></i> IEDB
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="../index.html" class="dropdown-item">
+                <i class="fas fa-university pr-1"></i> institucional
+              </a>
+              <a href="" class="dropdown-item">
+                <i class="fas fa-bible pr-1"></i> Doctrina
+              </a>
+              <a href="" class="dropdown-item">
+                <i class="fas fa-calendar-alt pr-1"></i> Cronograma IEDB
+              </a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="fas fa-address-book"></i> DJV
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="../index.html" class="dropdown-item">
+                <i class="fas fa-user-cog pr-1"></i> directivas
+              </a>
+              <a href="" class="dropdown-item">
+                <i class="fas fa-window-restore pr-1"></i> cronograma DJV
+              </a>
+              <a href="" class="dropdown-item">
+                <i class="fas fa-angry pr-1"></i> descargas
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="fas fa-download"></i> Documentos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="page-header header-filter filter clear-filter purple-filter" data-parallax="true" style="background-image: url('img/bg2.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand text-center">
+            <h1 class="display-1">IEDB</h1>
+            <h3 class="title text-center">Iglesia Evangelica de Dios Boliviana</h3>
+            <p class="">Por que escrito esta: Sed santos, por que yo soy santo.  </p>
+            
+            <a class="btn btn-danger " style="color: white;">1 Pedro 1:166</a>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-end" style="height: 200px;">
+        <div class="col 3 align-self-end">
+          <h2 id="horas"></h2>
+          <h5 id="fecha"></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section py-2">
+        <h2 class="title text-center">institucional</h2>
+        <h3 class="title">Historia</h3>
+        <p class="text-justify">El otoño de 1946, arribaron a nuestro país procedente de los EEUU. Los Misioneros de la Iglesia de Dios (Santidad), pastores: Homer L. Firestone y Sra. Con el propósito de predicar la palabra de Dios y establecer una Iglesia en Bolivia.</p class="text-justify">
+        
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header card-header-text  card-header-primary">
+                  <h4 class="card-title text-center">Ficha resumen</h4>
+                </div>
+                <div class="card-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Fundadores</th>
+                        <th>confer</th>
+                      </tr>
+                      <tr>
+                        <th>Sede</th>
+                        <th>Lapaz av. idelfonso de la muñecas #379</th>
+                      </tr>
+                      <tr>
+                        <th>Presidente</th>
+                        <th>Hector Ali</th>
+                      </tr>
+                      <tr>
+                        <th>Congregaciones</th>
+                        <th>150</th>
+                      </tr>
+                      <tr>
+                        <th>Pastores</th>
+                        <th>56</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <p class="text-justify">Después de llegar a la ciudad de La Paz, tuvieron que pasar varios años, de lucha y cruenta persecución. En medio de grandes dificultades, lograron establecer un pequeño grupo de creyentes, se congregaban en un local situado en la Avenida Pando de esta capital, grupo que tenía como primer pastor nacional al pastor Marcelo Duarte, con el tiempo dicha iglesia se trasladó a la Avenida Las Américas lugar que ocupa hasta el día de hoy. </p>
+        <p class="text-justify">El año 1950 se unió a esta naciente Iglesia el pastor Luciano Condori Ticona, con un grupo de creyentes creando de esta manera la Iglesia de Villa Victoria hoy “Munaypata”. A partir de ese entonces la obra fue extendiéndose en varios departamentos de Bolivia.</p>
+        <p class="text-justify">Al extenderse la obra, se vio la necesidad de un Organismo que dirija esta Iglesia, con este propósito se reunieron en la ciudad de La Paz, el día 24 de enero de 1951, los pastores nacionales, misioneros, y hermanos delegados de las distintas iglesias. En dicha asamblea, decidieron fundar la <a class="" href="">IGLESIA EVANGÉLICA DE DIOS BOLIVIANA</a>, organismo netamente nacional.</p>
+        <p class="text-justify">La Iglesia Evangélica de Dios Boliviana, amparada en el Artículo Tercero de la Constitución Política del Estado Boliviano. Acordó solicitar personería jurídica del supremo gobierno, la que le fue concedida por decreto de ley del 24 de Abril de 1953.</p>
+        
+      </div>
+      
+      <div class="section py-0">
+        <h2 class="title text-center">Doctrina</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-3 ">
+            <div class="card">
+              <div class="card-header card-header-text card-header-danger">
+                <h4 class="card-title">Doctrina fundamental</h4>
+              </div>
+              <div class="card-body" style="height: auto;">
+                <p>La IEDB profesa la doctrina de la santidad en Cristo <a class="rtBibleRef" href="" data-reference="tito 2:1-4" data-version="rvr60">tito 2:1-4</a> arminiana wesleyana la misma no puede ser cambiado por ninguna convencion nacional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="card">
+              <div class="card-header card-header-text card-header-info">
+                <h4 class="card-title">Trinidad</h4>
+              </div>
+              <div class="card-body"style="height: auto;">
+                <p>Creemos que hay un solo Dios Trino Creador del universo. se revela en tres personas, en una sola sustancia manifestado como el Padre, Hijo, Espiritu Santo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="card">
+              <div class="card-header card-header-text card-header-success">
+                <h4 class="card-title">Jesucristo</h4>
+              </div>
+              <div class="card-body"style="height: auto;">
+                <p>Jesucristo es el mediador entre Dios y los hombres nacio de la virgen maria concebido por E.S. Murio por nuestros pecados, resucito y esta sentado a la distra del Padre <a class="rtBibleRef" href="" data-reference="efesios 1:5-7" data-version="rvr60">efesios 1:5-7</a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 ">
+            <div class="card">
+              <div class="card-header card-header-text card-header-rose">
+                <h4 class="card-title">Espiritu Santo</h4>
+              </div>
+              <div class="card-body">
+                <p>Creemos en el Espiritu Santo como la tercera persona de la trinidad el Espiritu Santo viene a convencer al mundo de pecado de justicia y juicio, enseña, guia, habla y redarguye a la santa Iglesia. <a class="rtBibleRef" href="" data-reference="juan 14:26" data-version="rvr60">juan 14:26</a> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header card-header-text card-header-primary">
+                <h4 class="card-title">La Biblia</h4>
+              </div>
+              <div class="card-body">
+                <p>Creemos y afirmamos a la Biblia como inspiracion divina. el AT. y NT. en sus 66 libros. Dios por medio del Espiritu Santo a inspirado a los hombres santos para que la misma sea la unica doctrina para la iglesia<a class="rtBibleRef" href="" data-reference="2 timoteo 3:16" data-version="rvr60">2 timoteo 3:16</a> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header card-header-text card-header-warning">
+                <h4 class="card-title">Santificacion</h4>
+              </div>
+              <div class="card-body">
+                <p>Las Sagradas Escrituras enseña la necesidad de la entera santificación, que es la liberación del pecado original, de la naturaleza pecaminosa y depravada, es la renovación del corazón. <a class="rtBibleRef" href="" data-reference="ezequiel 11:19-20" data-version="rvr60">ezequiel 11:19-20</a> <a class="rtBibleRef" href="" data-reference="1 Tesalonicenses 5:23-24" data-version="rvr60">1 Tesalonicenses 5:23-24</a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="section py-0">
+    <h2 class="title text-center">Organizacion</h2>
+    <div class="row justify-content-center">
+      <div class="card mb-3" style="width: 40rem;">
+        <img src="img/orga.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Organigrama de la IEDB.</h4>
+          <p class="card-text">La Organización Religiosa la Iglesia Evangélica de Dios Boliviana, asume el gobierno Presbiteriano Congregacional en los asuntos eclesiásticos, administrativos <a class="rtBibleRef" href="" data-reference="hechos 6:1-7" data-version="rvr60">Hechos 6:1-7</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="section py-0">
+    <h2 class="title text-center"> Cronograma de actividades </h2>
+    <div class="row justify-content-center">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FLa_Paz&amp;src=M2NqcXM4bGhhbW5hOXFpMG8wNjNsbnNhZ2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%235A9A08&amp;showTitle=0" style="border-width:0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+  <footer class="footer footer-default">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="">
+              creado por <i class="fas fa-registered"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>, made with <i class="fas fa-heart"></i> by
+        <a href="#" target="blank">Gracia</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var refTagger = {
+      settings: {
+        bibleVersion: "RVR60"			
+      }
+    };
+    (function(d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = "//api.reftagger.com/v2/RefTagger.es.js";
+      s.parentNode.insertBefore(g, s);
+    }(document, "script"));
+  </script>
+  <!--jshora-->
+  <script src="hora.js" type="text/javascript"></script>
+  <!--   Core JS Files   -->
+  <script src="js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="js/core/popper.min.js" type="text/javascript"></script>
+  <script src="js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="js/plugins/moment.min.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="js/material-kit.min.js" type="text/javascript"></script>
+</body>
+
+</html>
