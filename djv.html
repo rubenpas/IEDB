@@ -36,35 +36,42 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="fas fa-address-book"></i> DJV
-            </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="../index.html" class="dropdown-item">
-                <i class="fas fa-route pr-1"></i> directivas
-              </a>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-angry pr-1"></i> cronograma
-              </a>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-angry pr-1"></i> descargas
-              </a>
-            </div>
-          </li>
+          
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               <i class="fas fa-church"></i> IEDB
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="../index.html" class="dropdown-item">
-                <i class="fas fa-route pr-1"></i> mision
+              <a href="index.html#historia" class="dropdown-item">
+                <i class="fas fa-university pr-1"></i> Historia
               </a>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-angry pr-1"></i> directivas
+              <a href="index.html#doctrina" class="dropdown-item">
+                <i class="fas fa-bible pr-1"></i> Doctrina
               </a>
-              <a href="" class="dropdown-item">
-                <i class="fas fa-angry pr-1"></i> cronograma
+              <a href="index.html#cronograma-iedb" class="dropdown-item">
+                <i class="fas fa-calendar-alt pr-1"></i> cronograma-IEDB
+              </a>
+              <a href="index.html#objetivos" class="dropdown-item">
+                <i class="fas fa-chalkboard pr-1"></i> Objetivos
+              </a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="fas fa-address-book"></i> DJV
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="#mision" class="dropdown-item">
+                <i class="fas fa-route pr-1"></i> Mision
+              </a>
+              <a href="#sociedades" class="dropdown-item">
+                <i class="fas fa-angry pr-1"></i> Sociedades 
+              </a>
+              <a href="#directiva" class="dropdown-item">
+                <i class="fas fa-chart-bar pr-1"></i> Directiva DJV
+              </a>
+              <a href="#cronograma-djv" class="dropdown-item">
+                <i class="fas fa-chalkboard-teacher pr-1"></i> Cronograma DJV
               </a>
             </div>
           </li>
@@ -99,7 +106,7 @@
   </div>
   <div class="main main-raised">
     <div class="container">
-      <div class="section pt-3 pb-0">
+      <div class="section pt-3 pb-0" id="mision">
         <h2 class="title text-center">Nuestra Mision/Vision</h2>
         <div class="row py-0">
           <div class="col-md-6">
@@ -149,57 +156,57 @@
           <!-- ./col -->
         </div>
       </div>
-      <div class="section cd-section py-0" id="javascriptComponents">
-        <h2 class="title text-center">Sociedades Juveniles</h2>
+      <div class="section cd-section py-0"id="sociedades">
+        <h2 class="title text-center" >Sociedades Juveniles</h2>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-md-3 col-sm-10 text-center">
                 <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#rescate">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Rescate
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fas fa-registered"></span> </a><br> Rescate <br> <small class="text-white">Iglesia Peniel</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
                 <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#jordan">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Sin Fronteras
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-foursquare"></span> </a><br> Sin Fronteras <br> <small class="text-white">Iglesia Jordan</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
                 <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#salmos">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Hosanna
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fas fa-hospital-symbol"></span> </a><br> Hosanna <br> <small class="text-white">Iglesia Salmos</small>
                 </button>
               </div>
             </div>
             <div class="row justify-content-center">
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#rescate">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i> <br> Vida
+                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#vida">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-vuejs"></span> </a> <br> Vida <br> <small class="text-white">Iglesia Emanuel</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#jordan">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Redimidos
+                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#redimidos">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-r-project"></span> </a><br> Redimidos <br> <small class="text-white">Iglesia Vida Nueva</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#salmos">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Jireh
+                <button class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#jireh">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-jira"></span> </a><br> Jireh <br> <small class="text-white">Iglesia Kairos</small>
                 </button>
               </div>
             </div>
             <div class="row justify-content-center">
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#rescate">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Pregoneros Del Valle
+                <button class="btn btn-dark btn-lg btn-block" data-toggle="modal" data-target="#pregoneros">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-product-hunt"></span> </a><br> Pregoneros Del Valle <br> <small class="text-white">Iglesia Luz Del Valle</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#jordan">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Generacion
+                <button class="btn btn-dark btn-lg btn-block" data-toggle="modal" data-target="#generacion">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-gofore"></span> </a><br> Generacion <br> <small class="text-white">Iglesia 9 de Abril</small>
                 </button>
               </div>
               <div class="col-md-3 col-sm-10 text-center">
-                <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#salmos">
-                  <i class="btn btn-fab btn-default btn-round fas fa-user"></i><br> Nueva Vida En Cristo
+                <button class="btn btn-dark btn-lg btn-block" data-toggle="modal" data-target="#nueva">
+                  <a href="#" class="btn btn-link btn-white btn-fab btn-round"><span class="fab fa-cuttlefish"></span> </a><br> Nueva Vida En Cristo <br> <small class="text-white">Iglesia Palta Loma</small>
                 </button>
               </div>
             </div>
@@ -209,22 +216,77 @@
         
         
       </div>
-      <div class="section py-0">
+      <div class="section py-0" id="directiva">
         <h2 class="title text-center">Directiva DJV</h2>
         <div class="container text-center">
-          <div class="row">
-            <div class="col-md-4 justify-content-center">
-              <ul id="ul-data" style="display: none;">
-            
-                
-                
-              </ul>
+          <div class="row justify-content-center">
+            <div class="col-md-5 col-sm-12 ">
+              <div class="card">
+                <div class="card-header card-header-danger">
+                  <div class="card-title">
+                    <a href="#" class="btn btn-link btn-fab btn-round"><span class="fas fa-users"></span> </a>directiva
+                  </div>
+                </div>
+                <div class="card-body p-2">
+                  <div class="row">
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/david.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>David choque <br></small>
+                      <small class="text-primary">Presidente</small class="text-primary">
+                    </div>
+                    <div class="col-3 px-0 ">
+                      <a href="https://wa.me/59176436420"><img src="img/user1-128x128.jpg" alt="kkik" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Rosimary Morales <br> </small>
+                      <small class="text-primary">Vicepresidenta</small>
+                    </div>
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/lized.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Damariz Perez <br> </small>
+                      <small class="text-primary">Tesorera</small>
+                    </div>
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/user1-128x128.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Ernesto <br> </small>
+                      <small class="text-primary">Secretario</small>
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/saida.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Saida Flores <br></small>
+                      <small class="text-primary">Vocal</small>
+                    </div>
+                    <div class="col-3 px-0 ">
+                      <a href="https://wa.me/59176436420"><img src="img/user1-128x128.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Botronico paz <br> </small>
+                      <small class="text-primary">Vocal</small>
+                    </div>
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/user1-128x128.jpg" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>altronso cos <br> </small>
+                      <small class="text-primary">vocal</small>
+                    </div>
+                    <div class="col-3 px-0">
+                      <a href="https://wa.me/59176436420"><img src="img/ruben.png" alt="" class="rounded-circle img-fluid" style="box-sizing: border-box; width: 4rem;"></a>
+                      <br>
+                      <small>Ruben Pascual <br> </small>
+                      <small class="text-primary">Vocal</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="orgranigrama"></div>
         </div>
       </div>
-      <div class="section">
+      <div class="section" id="cronograma-djv">
         <h2 class="title text-center">Cronograma de actividades</h2>
         <div class="container">
           <div class="row justify-content-center">
@@ -439,46 +501,39 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal fade" id="redimidos" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         
         <div class="modal-body">
           <div class="card ">
             <div class="card-header card-header-text  card-header-primary">
-              <h4 class="card-title text-center">Sociedad Juvenil Rescate</h4>
+              <h4 class="card-title text-center">Sociedad Juvenil Redimidos</h4>
             </div>
             <div class="card-body p-0">
               <table class="table">
                 <thead>
                   <tr>
                     <th>President@</th>
-                    <th>Sergio Llanque <a href="https://wa.me/59168538849">68538849</a></th>
+                    <th>Delia Quispe <a href="https://wa.me/591">...</a></th>
                   </tr>
                   <tr>
                     <th>Vicepresident@</th>
-                    <th>Heinar Condori <a href="https://wa.me/59167554583">67554583</a></th>
+                    <th>Jhasmany Calizaya <a href="https://wa.me/591">...</a></th>
                   </tr>
                   <tr>
                     <th>Secretari@</th>
-                    <th>Deysi Lopez <a href="https://wa.me/59161598704">61598704</a></th>
+                    <th>Erica Colque <a href="https://wa.me/591">...</a></th>
                   </tr>
                   <tr>
                     <th>Tesorer@</th>
-                    <th>Junior Perez <a href="https://wa.me/59160713369">60713369</a></th>
+                    <th>Leonarda Mamani <a href="https://wa.me/591">...</a></th>
                   </tr>
                   <tr>
                     <th>Vocal</th>
-                    <th>Fresia Andia <a href="https://wa.me/59170745860">70745860</a></th>
+                    <th>Joel Challapa <a href="https://wa.me/591"></a></th>
                   </tr>
-                  <tr>
-                    <th>Vocal</th>
-                    <th>Betsaida Bautista <a href="https://wa.me/59172767433">72767433</a></th>
-                  </tr>
-                  <tr>
-                    <th>Vocal</th>
-                    <th>Javier Martines <a href="https://wa.me/59175922378">75922378</a></th>
-                  </tr>
+                  
                 </thead>
               </table>
             </div>
@@ -490,7 +545,7 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal fade" id="generacion" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         
@@ -503,33 +558,14 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th>President@</th>
-                    <th>Sergio Llanque <a href="https://wa.me/59168538849">68538849</a></th>
+                    <th>Consejer@</th>
+                    <th>Boriz <a href="https://wa.me/59169116512">69116512</a></th>
                   </tr>
                   <tr>
-                    <th>Vicepresident@</th>
-                    <th>Heinar Condori <a href="https://wa.me/59167554583">67554583</a></th>
+                    <th>Consejer@</th>
+                    <th>Elizabeth <a href="https://wa.me/59178596346">78596346</a></th>
                   </tr>
-                  <tr>
-                    <th>Secretari@</th>
-                    <th>Deysi Lopez <a href="https://wa.me/59161598704">61598704</a></th>
-                  </tr>
-                  <tr>
-                    <th>Tesorer@</th>
-                    <th>Junior Perez <a href="https://wa.me/59160713369">60713369</a></th>
-                  </tr>
-                  <tr>
-                    <th>Vocal</th>
-                    <th>Fresia Andia <a href="https://wa.me/59170745860">70745860</a></th>
-                  </tr>
-                  <tr>
-                    <th>Vocal</th>
-                    <th>Betsaida Bautista <a href="https://wa.me/59172767433">72767433</a></th>
-                  </tr>
-                  <tr>
-                    <th>Vocal</th>
-                    <th>Javier Martines <a href="https://wa.me/59175922378">75922378</a></th>
-                  </tr>
+                  
                 </thead>
               </table>
             </div>
@@ -627,9 +663,6 @@
       s.parentNode.insertBefore(g, s);
     }(document, "script"));
   </script>
-
-  
-  
   <!--jshora-->
   <script src="hora.js" type="text/javascript"></script>
   <!--   Core JS Files   -->
@@ -643,11 +676,5 @@
   <script src="js/material-kit.min.js" type="text/javascript"></script>
   <!--orgchart-->
   <script src="js/jquery.orgchart.min.js"></script>
-  <script>
-    $('#orgranigrama').orgchart({
-  'data' : $('#ul-data')
-  });
-  </script>
 </body>
-
 </html>
